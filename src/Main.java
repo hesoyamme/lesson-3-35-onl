@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
 
-        int num = 8665645;
-        int max  =  num % 10;
-        int min =  num % 10;
-       while (num != 0 ){
+        int number = 8665645;
+        int max  =  number % 10;
+        int min =  number % 10;
+       while (number != 0 ){
 
-           if (num %  10 >= max){
-               max =  num % 10;
+           if (number %  10 >= max){
+               max =  number % 10;
 
-           }else if (num % 10 < min){
-               min =  num % 10;
+           }else if (number % 10 < min){
+               min =  number % 10;
            }
-num = num / 10;
+           number = number / 10;
 
 
        }
