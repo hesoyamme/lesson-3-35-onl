@@ -3,7 +3,7 @@ public class Main {
 
         int num = 8665645;
         int max  =  num % 10;
-        int min =  num % 10;
+        int min =  num % 1;
        while (num != 0 ){
 
            if (num %  10 >= max){
